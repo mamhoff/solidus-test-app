@@ -23,7 +23,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'solidus'
+gem 'solidus', github: "solidusio/solidus", branch: "master"
+gem "solidus_auth_devise", github: "solidusio/solidus_auth_devise", branch: "master"
 gem 'solidus-adyen', path: "../solidus-adyen"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
